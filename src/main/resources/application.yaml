@@ -1,0 +1,13 @@
+server:
+ port: 8172
+ 
+spring:
+  application:
+    name: departement-service
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8171/eureka/
+   
+
